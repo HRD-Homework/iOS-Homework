@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '10.0'
+
+target 'MVP Article Management' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MVP Article Management
+    pod 'AlamofireObjectMapper'
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod "SwiftSpinner"
+
+ # target 'MVP Article ManagementTests' do
+ #   inherit! :search_paths
+    # Pods for testing
+ # end
+
+ # target 'MVP Article ManagementUITests' do
+ #   inherit! :search_paths
+    # Pods for testing
+ # end
+
+end
