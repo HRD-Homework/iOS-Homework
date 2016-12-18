@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8D5FD091E04B99F00FCAF56"
+               BuildableName = "MVP Article Management.app"
+               BlueprintName = "MVP Article Management"
+               ReferencedContainer = "container:MVP Article Management.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8D5FD1D1E04B99F00FCAF56"
+               BuildableName = "MVP Article ManagementTests.xctest"
+               BlueprintName = "MVP Article ManagementTests"
+               ReferencedContainer = "container:MVP Article Management.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8D5FD281E04B99F00FCAF56"
+               BuildableName = "MVP Article ManagementUITests.xctest"
+               BlueprintName = "MVP Article ManagementUITests"
+               ReferencedContainer = "container:MVP Article Management.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F8D5FD091E04B99F00FCAF56"
+            BuildableName = "MVP Article Management.app"
+            BlueprintName = "MVP Article Management"
+            ReferencedContainer = "container:MVP Article Management.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F8D5FD091E04B99F00FCAF56"
+            BuildableName = "MVP Article Management.app"
+            BlueprintName = "MVP Article Management"
+            ReferencedContainer = "container:MVP Article Management.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F8D5FD091E04B99F00FCAF56"
+            BuildableName = "MVP Article Management.app"
+            BlueprintName = "MVP Article Management"
+            ReferencedContainer = "container:MVP Article Management.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
